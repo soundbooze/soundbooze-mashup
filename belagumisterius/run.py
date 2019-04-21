@@ -65,6 +65,7 @@ if __name__ == "__main__":
                 #ts, itv = beatroot(d + '/' + fname)
 
     for i in range(0, len(process)-1, 2):
+        print(process[i], process[i+1], i)
         merged(process[i], process[i+1], i)
 
     while [ 1 ]:
