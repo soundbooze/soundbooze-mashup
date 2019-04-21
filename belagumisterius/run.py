@@ -82,8 +82,7 @@ if __name__ == "__main__":
         mashup = sorted(mashup)
         print mashup
 
-        for i in range(0, len(mashup)-1, 2):
-            print (mashup[i], mashup[i+1], i)
-            merged(mashup[i+1], mashup[i], i)
+        print (mashup[0], mashup[1], 0)
+        merged(mashup[0], mashup[1], 0)
 
-        os.unlink(mashup[len(mashup)-1])
+        os.unlink(mashup[1])
