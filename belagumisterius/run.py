@@ -43,10 +43,10 @@ def merged(fname1, fname2, i):
 
     overlay = first_1.overlay(first_2)
 
-    song1 = song1.fade_in(500).fade_out(1800)
-    song2 = song2.fade_in(500).fade_out(1800)
+    song1 = song1.fade_in(300).fade_out(1500)
+    song2 = song2.fade_in(300).fade_out(1500)
 
-    mashup = song1 + overlay[-2000:] + song2
+    mashup = song1 + overlay[-500:] + song2
 
     mashup.export("mashup/" + str(unichr(97+i)) + ".wav", format="wav")
 
