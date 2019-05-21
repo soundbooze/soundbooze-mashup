@@ -201,4 +201,4 @@ BeatSimilarity(audio1, audio2)
 # TODO:
 # ----------------- specDynSimilarity
 # ----------------- pitch/beat Stretch
-# ----------------- min/max loudness
+# ----------------- min/max loudness , cqt (len(max))
